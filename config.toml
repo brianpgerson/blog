@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "My blog"
-theme = "anubis"
+theme = "indigo"
 
 [Params]
     mainSections = ["post"]
