@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <meta charset="utf-8">
     
-        
-<meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer-when-downgrade">
-
-<title>(Hu)go Template Primer  - My blog</title>
-<meta name="description" content="My description">
-
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="/favicon.png">
-
-<link rel="stylesheet" href="/css/style.css?rnd=1591248472" />
-
-
-
-<meta property="og:title" content="(Hu)go Template Primer" />
-<meta property="og:description" content="(Hu)go Template Primer description." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/goisforlovers/" />
-<meta property="article:published_time" content="2014-04-02T02:13:50+00:00" />
-<meta property="article:modified_time" content="2014-04-02T02:13:50+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="(Hu)go Template Primer"/>
-<meta name="twitter:description" content="(Hu)go Template Primer description."/>
-
-
-
-
-
-
+    <title>(Hu)go Template Primer | My blog</title>
+    <meta name="description" content="(Hu)go Template Primer description.">
+    <meta name="author" content="">
     
+    <link rel="apple-touch-icon" sizes="180x180" href=/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=/favicon-16x16.png>
+    <link rel="manifest" href=/site.webmanifest>
+    <link rel="mask-icon" href=/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    <link rel="stylesheet" href=/css/fonts.css />
+    <link rel="stylesheet" href=/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
-    <div class="container">
-        <header> 
-            
-                <h1 class="site-header">
-    <a href="/">My blog</a>
-</h1>
-<nav>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="/"><img src=/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>
+        <nav>
     
-    
-    <a class="" href="/hugoisforlovers/" title="Getting Started with Hugo">Getting Started with Hugo</a>
-    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/hugoisforlovers/">
+                    
+                    <span>Getting Started with Hugo</span>
+                </a>
+            </div>
+        
+    </div>
 </nav>
+        
+    </header>
 
-            
-        </header>
-        <main id="main" tabindex="-1"> 
-            
 
-    <article class="post">
+
+
+
+
+<div id="content">
+    <article class="h-entry">
         <header>
-            <h1>(Hu)go Template Primer</h1>
+            <h1 class="post-title p-name">(Hu)go Template Primer</h1>
+            
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="2014-04-02T02:13:50Z">
+                    2 April, 2014 at 02:13 UTC
+                </time>  by <a href="/" class="p-author h-card"
+                    rel="author">Michael Henderson</a>
+            </p>
+            
+            
         </header>
-        <div class="content">
+        <section class="content e-content">
             <p>Hugo uses the excellent <a href="https://golang.org/">go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
@@ -295,51 +310,70 @@ so, such as in this example:</p>
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
-        </div>
-        
-
-    
-
-
-<div class="article-info">
-    
-        <div class="article-date">Wed, Apr 2, 2014</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="article-tags">
-                    
-                        <li><a href="/tags/go">#go</a></li>
-                    
-                        <li><a href="/tags/golang">#golang</a></li>
-                    
-                        <li><a href="/tags/templates">#templates</a></li>
-                    
-                        <li><a href="/tags/themes">#themes</a></li>
-                    
-                        <li><a href="/tags/development">#development</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
-
-    </article>
-    
-
-
-        </main>
+        </section>
         <footer>
+            <a class="permalink u-url" href="/goisforlovers/"></a>
             
+            <hr class="post-underline">
+            <p class="post-tag">Tags for this post:
                 
+                <a href="/tags/go" class="post-tag p-category">go</a>
                 
-
-                <p>© 2020<br>
-Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
-</p>
+                <a href="/tags/golang" class="post-tag p-category">golang</a>
+                
+                <a href="/tags/templates" class="post-tag p-category">templates</a>
+                
+                <a href="/tags/themes" class="post-tag p-category">themes</a>
+                
+                <a href="/tags/development" class="post-tag p-category">development</a>
+                
+            </p>
             
         </footer>
+    </article>
+</div>
+
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="next">
+          
+          <a alt="Newer article" href="/creating-a-new-theme/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="prev">
+          
+          <a alt="Older article" href="/migrate-from-jekyll/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+      
     </div>
+
+
 </body>
 </html>

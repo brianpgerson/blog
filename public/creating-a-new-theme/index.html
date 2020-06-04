@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <meta charset="utf-8">
     
-        
-<meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer-when-downgrade">
-
-<title>Creating a New Theme  - My blog</title>
-<meta name="description" content="My description">
-
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="/favicon.png">
-
-<link rel="stylesheet" href="/css/style.css?rnd=1591248472" />
-
-
-
-<meta property="og:title" content="Creating a New Theme" />
-<meta property="og:description" content="Description of my awesome project." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/creating-a-new-theme/" />
-<meta property="article:published_time" content="2014-09-28T02:13:50+00:00" />
-<meta property="article:modified_time" content="2014-09-28T02:13:50+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating a New Theme"/>
-<meta name="twitter:description" content="Description of my awesome project."/>
-
-
-
-
-
-
+    <title>Creating a New Theme | My blog</title>
+    <meta name="description" content="Description of my awesome project.">
+    <meta name="author" content="">
     
+    <link rel="apple-touch-icon" sizes="180x180" href=/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=/favicon-16x16.png>
+    <link rel="manifest" href=/site.webmanifest>
+    <link rel="mask-icon" href=/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    <link rel="stylesheet" href=/css/fonts.css />
+    <link rel="stylesheet" href=/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
-    <div class="container">
-        <header> 
-            
-                <h1 class="site-header">
-    <a href="/">My blog</a>
-</h1>
-<nav>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="/"><img src=/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
+    </div>
+    <header>
+        <nav>
     
-    
-    <a class="" href="/hugoisforlovers/" title="Getting Started with Hugo">Getting Started with Hugo</a>
-    
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="/">Home</a>
+        </div>
+        
+            <div class="page-nav-item">
+                <a href="/hugoisforlovers/">
+                    
+                    <span>Getting Started with Hugo</span>
+                </a>
+            </div>
+        
+    </div>
 </nav>
+        
+    </header>
 
-            
-        </header>
-        <main id="main" tabindex="-1"> 
-            
 
-    <article class="post">
+
+
+
+
+<div id="content">
+    <article class="h-entry">
         <header>
-            <h1>Creating a New Theme</h1>
+            <h1 class="post-title p-name">Creating a New Theme</h1>
+            
+            <p class="post-date">Posted on
+                <time class="dt-published" datetime="2014-09-28T02:13:50Z">
+                    28 September, 2014 at 02:13 UTC
+                </time>  by <a href="/" class="p-author h-card"
+                    rel="author">Michael Henderson</a>
+            </p>
+            
+            
         </header>
-        <div class="content">
+        <section class="content e-content">
             <h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
@@ -868,37 +883,55 @@ $ vi themes/zafta/layouts/_default/single.html
 <h3 id="dont-repeat-yourself">Don&rsquo;t Repeat Yourself</h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
 
-        </div>
-        
-
-    
-
-
-<div class="article-info">
-    
-        <div class="article-date">Sun, Sep 28, 2014</div>
-    
-    <div class="article-taxonomies">
-        
-            
-    </div>
-</div>
-
-    </article>
-    
-
-
-        </main>
+        </section>
         <footer>
-            
-                
-                
-
-                <p>© 2020<br>
-Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
-</p>
+            <a class="permalink u-url" href="/creating-a-new-theme/"></a>
             
         </footer>
+    </article>
+</div>
+
+    
+    <div id="footer">
+      
+      <nav id="article-skip">
+        <div class="next">
+          
+          <a alt="Newer article" href="/page/contact/">&larr; Newer</a>
+          
+        </div>
+        <div class="top">
+          <a alt="Top of page" href="#">Top</a>
+        </div>
+        <div class="prev">
+          
+          <a alt="Older article" href="/goisforlovers/">Older &rarr;</a>
+          
+        </div>
+      </nav>
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
+
+      
     </div>
+
+
 </body>
 </html>

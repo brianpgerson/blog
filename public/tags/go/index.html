@@ -1,133 +1,144 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <meta charset="utf-8">
     
-        
-<meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer-when-downgrade">
-
-<title>go  - My blog</title>
-<meta name="description" content="My description">
-
-<link rel="alternate" type="application/rss+xml" href="/tags/go/index.xml" title="My blog" />
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="/favicon.png">
-
-<link rel="stylesheet" href="/css/style.css?rnd=1591248472" />
-
-
-
-<meta property="og:title" content="go" />
-<meta property="og:description" content="My description" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/tags/go/" />
-<meta property="og:updated_time" content="2014-04-02T02:13:50+00:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="go"/>
-<meta name="twitter:description" content="My description"/>
-
-
-
-
-
-
+    <title>go | My blog</title>
+    <meta name="description" content="My description">
+    <meta name="author" content="">
     
+    <link rel="apple-touch-icon" sizes="180x180" href=/apple-touch-icon.png>
+    <link rel="icon" type="image/png" sizes="32x32" href=/favicon-32x32.png>
+    <link rel="icon" type="image/png" sizes="16x16" href=/favicon-16x16.png>
+    <link rel="manifest" href=/site.webmanifest>
+    <link rel="mask-icon" href=/safari-pinned-tab.svg color="#00416a">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    
+    
+    
+    
+    <link rel="authorization_endpoint" href=https://indieauth.com/auth />
+    <link rel="token_endpoint" href=https://tokens.indieauth.com/token />
+    
+    
+    
+    
+    <link rel="stylesheet" href=/css/fonts.css />
+    <link rel="stylesheet" href=/css/style.css />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
-    <div class="container">
-        <header> 
-            
-                <h1 class="site-header">
-    <a href="/">My blog</a>
-</h1>
-<nav>
-    
-    
-    <a class="" href="/hugoisforlovers/" title="Getting Started with Hugo">Getting Started with Hugo</a>
-    
-</nav>
-
-            
-        </header>
-        <main id="main" tabindex="-1"> 
-            
-
-    <h1>Tag: go</h1>
-    <div class="article-info">
-        <a href="/tags/">To all tags</a>
+    <div id="sitelogo">
+        <a class="glyph" alt="Home" href="/"><img src=/images/site-logo.svg alt="Site Logo" height="64px" width="64px"></a>
     </div>
+    <header>
+        <nav>
     
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/goisforlovers/">(Hu)go Template Primer</a>
-            </h1>
-        </header>
-
-        <div class="content post-summary">
-            Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.
+    <div id="page-nav">
+        <div class="page-nav-item">
+            <a href="/">Home</a>
         </div>
         
+            <div class="page-nav-item">
+                <a href="/hugoisforlovers/">
+                    
+                    <span>Getting Started with Hugo</span>
+                </a>
+            </div>
+        
+    </div>
+</nav>
+        
+        <div id="site-header">
+            <h1>My blog</h1>
+            
+        </div>
+        
+    </header>
 
-    
+<h2>
+  <span class="list-heading-type">tags:</span>
+  <span class="list-heading-tag">go</span>
+</h2>
 
-
-<div class="article-info">
-    
-        <div class="article-date">Wed, Apr 2, 2014</div>
-    
-</div>
-
-
+<div id="content">
+  
+      <article>
+      <header>
+        
+        <h2 class="list-title"><a href="/goisforlovers/">(Hu)go Template Primer</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2014-04-02T02:13:50Z">
+            2 April, 2014 at 02:13 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.
+      </div>
+      
+      <p><a class="read-more" href="/goisforlovers/">Read more &rarr;</a></p>
+      
     </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/hugoisforlovers/">Getting Started with Hugo</a>
-            </h1>
-        </header>
-
-        <div class="content post-summary">
-            Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+  
+      <article>
+      <header>
+        
+        <h2 class="list-title"><a href="/hugoisforlovers/">Getting Started with Hugo</a></h2>
+        
+        <p class="list-post-date">
+          <time datetime="2014-04-02T00:00:00Z">
+            2 April, 2014 at 00:00 UTC
+          </time>
+        </p>
+      </header>
+      <div>
+        Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
  Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
-        </div>
-        
-
-    
-
-
-<div class="article-info">
-    
-        <div class="article-date">Wed, Apr 2, 2014</div>
-    
+      </div>
+      
+      <p><a class="read-more" href="/hugoisforlovers/">Read more &rarr;</a></p>
+      
+    </article>
+  
 </div>
 
-
-    </article>
     
+    <div id="footer">
+      
+      <aside id="social">
+  <div id="social-icons">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</aside>
 
-
-        </main>
-        <footer>
-            
-                
-                
-
-                <p>© 2020<br>
-Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
-</p>
-            
-        </footer>
+      
     </div>
+
+
 </body>
 </html>
