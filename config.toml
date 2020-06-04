@@ -1,5 +1,16 @@
+baseURL = "/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Brian P. Gerson"
+theme = "hermit"
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+
 [author]
-  name = "John Doe"
+  name = "Brian"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -8,7 +19,6 @@
 
 [taxonomies]
   tag = "tags"
-  # Categories are disabled by default.
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -21,14 +31,8 @@
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "It's my page; I can write what I want."
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  # bgImg = ""  # Homepage background-image URL
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
-
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
 
   relatedPosts = false  # Add a related content section to all single posts page
@@ -42,15 +46,15 @@
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/"
+    url = "https://twitter.com/gerswayne"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    name = "email"
+    url = "mailto:brianpgerson@gmail.com"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/brianpgerson"
 
 [menu]
 
@@ -61,5 +65,5 @@
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
