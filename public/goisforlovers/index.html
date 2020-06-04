@@ -1,98 +1,67 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>(Hu)go Template Primer &middot; </title>
-        <meta name="description" content="(Hu)go Template Primer description.">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.72.0" />
-        <meta name="robots" content="index,follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="(Hu)go Template Primer">
-<meta property="og:description" content="(Hu)go Template Primer description.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="/goisforlovers/">
-        <link rel="stylesheet" href="/dist/site.css">
-        <link rel="stylesheet" href="/dist/syntax.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        
-        
-        
-        
-    </head>
-    <body>
-        
-
-        <div id="wrapper">
-            <header class="site-header">
-                <div class="container">
-                    <div class="site-title-wrapper">
-                        
-                            <h1 class="site-title">
-                                <a title="My blog" href="/">My blog</a>
-                            </h1>
-                        
-                        <a class="button-square" href="/index.xml"><i class="fa fa-rss"></i></a>
-                        
-                            <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/XXX" rel="me">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/XXX" rel="me">
-                                <i class="fa fa-github-alt"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Email" title="Email" href="mailto:XXX@example.com">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-                        
-                    </div>
-
-                    <ul class="site-nav">
-                        
-    <li class="site-nav-item">
-        <a title="Getting Started with Hugo" href="/hugoisforlovers/">Getting Started with Hugo</a>
-    </li>
-
-                    </ul>
-                </div>
-            </header>
-
-            <div id="container">
-
-
-<div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">(Hu)go Template Primer</h1>
+<html lang="">
+<head>
     
-        <p class="post-description" itemprop="description">(Hu)go Template Primer description.</p>
-    
-    <p class="post-date post-line">
-        <span>Published <time datetime="2014-04-02" itemprop="datePublished">Wed, Apr 2, 2014</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="#" itemprop="url" rel="author">Michael Henderson</a>
-            </span>
-        </span>
-    </p>
-    
-</header>
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
 
-        <div class="post-content clearfix" itemprop="articleBody">
-    
+<title>(Hu)go Template Primer  - My blog</title>
+<meta name="description" content="My description">
 
-    <p>Hugo uses the excellent <a href="https://golang.org/">go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/favicon.png">
+
+<link rel="stylesheet" href="/css/style.css?rnd=1591248472" />
+
+
+
+<meta property="og:title" content="(Hu)go Template Primer" />
+<meta property="og:description" content="(Hu)go Template Primer description." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/goisforlovers/" />
+<meta property="article:published_time" content="2014-04-02T02:13:50+00:00" />
+<meta property="article:modified_time" content="2014-04-02T02:13:50+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="(Hu)go Template Primer"/>
+<meta name="twitter:description" content="(Hu)go Template Primer description."/>
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">My blog</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="/hugoisforlovers/" title="Getting Started with Hugo">Getting Started with Hugo</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1>(Hu)go Template Primer</h1>
+        </header>
+        <div class="content">
+            <p>Hugo uses the excellent <a href="https://golang.org/">go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
@@ -326,86 +295,51 @@ so, such as in this example:</p>
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
-</div>
+        </div>
+        
 
-        <footer class="post-footer clearfix">
-    
-        <p class="post-tags">
-            <span>Tagged:</span>
-            
-            
-                <a href="/tags/go/">go</a>, 
-            
-                <a href="/tags/golang/">golang</a>, 
-            
-                <a href="/tags/templates/">templates</a>, 
-            
-                <a href="/tags/themes/">themes</a>, 
-            
-                <a href="/tags/development/">development</a>
-            
-        </p>
     
 
-    <div class="share">
-        
-            <a class="icon-twitter" href="https://twitter.com/share?text=%28Hu%29go%20Template%20Primer&url=%2fgoisforlovers%2f"
-                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                <i class="fa fa-twitter"></i>
-                <span class="hidden">Twitter</span>
-            </a>
-        
 
+<div class="article-info">
+    
+        <div class="article-date">Wed, Apr 2, 2014</div>
+    
+    <div class="article-taxonomies">
         
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fgoisforlovers%2f"
-                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                <i class="fa fa-facebook"></i>
-                <span class="hidden">Facebook</span>
-            </a>
-        
-
-        
-            <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fgoisforlovers%2f"
-              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-              <i class="fa fa-google-plus"></i>
-                <span class="hidden">Google+</span>
-            </a>
-        
+            
+                <ul class="article-tags">
+                    
+                        <li><a href="/tags/go">#go</a></li>
+                    
+                        <li><a href="/tags/golang">#golang</a></li>
+                    
+                        <li><a href="/tags/templates">#templates</a></li>
+                    
+                        <li><a href="/tags/themes">#themes</a></li>
+                    
+                        <li><a href="/tags/development">#development</a></li>
+                    
+                </ul>
         
     </div>
-</footer>
-
-        
-    </article>
 </div>
 
-            </div>
-        </div>
+    </article>
+    
 
-        <footer class="footer">
-            <div class="container">
-                <div class="site-title-wrapper">
-                    <h1 class="site-title">
-                        <a title="My blog" href="/">My blog</a>
-                    </h1>
-                    <a class="button-square button-jump-top js-jump-top" href="#">
-                        <i class="fa fa-angle-up"></i>
-                    </a>
-                </div>
 
-                <p class="footer-copyright">
-                    <span>&copy; 2015 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
-                </p>
-                <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
-                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
-                </p>
-            </div>
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
         </footer>
-
-        <script src="/js/jquery-1.11.3.min.js"></script>
-        <script src="/js/jquery.fitvids.js"></script>
-        <script src="/js/scripts.js"></script>
-    </body>
+    </div>
+</body>
 </html>
-
