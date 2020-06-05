@@ -1,17 +1,11 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About This Blog"
+date = "2012-06-03"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+And a bit about me, sure.
 
-It makes use of a variety of open source projects including:
+I'm Brian - I do, among other things, software engineering work at Square. I also happen to have **extreme online brain poisoning** re: politics. So: technical subjects and political comments will be the meat and potatoes here. Seems like a good way to make any reader stopping by upset, if not outraged. Cool!
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+This blog is built on [Hugo](https://github.com/gohugoio) with the [Hermit theme](https://github.com/Track3/hermit). 
 

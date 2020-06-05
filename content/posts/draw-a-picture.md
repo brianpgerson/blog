@@ -1,7 +1,6 @@
 ---
-title: "Draw a Picture"
+title: "How I set up this blog"
 date: 2020-06-03T23:08:28-07:00
-toc: false
 images:
 tags: 
   - code
@@ -9,7 +8,7 @@ tags:
 
 ## Introduction
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
+This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
 
 We'll start with creating a new site with a very basic template. Then we'll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
 
