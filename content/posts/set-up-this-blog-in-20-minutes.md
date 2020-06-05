@@ -1,5 +1,5 @@
 ---
-title: "Your own Hugo blog in 20 minutes"
+title: "Your own Hugo blog in record time"
 date: 2020-06-05
 images:
 tags: 
