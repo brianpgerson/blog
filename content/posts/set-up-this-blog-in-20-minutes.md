@@ -83,4 +83,4 @@ If you make changes locally and push them up? That's right: Netlify will kick of
 
 Lastly, if you would like to get a custom domain, Netlify does make it very easy to do so. I picked my domain, bought it for 10 bucks, and set up HTTPS within an extra couple minutes. 
 
-Not bad for a day's work!
+Not bad for a day's work! Now for the easy part: writing extraordinary content for your ever-growing legions of readers.
