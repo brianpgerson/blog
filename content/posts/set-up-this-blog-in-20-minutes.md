@@ -45,10 +45,12 @@ Browse https://themes.gohugo.io/ and when you find something you like, I recomme
 Okay, so if you look in `/themes/hermit/exampleSite/`, you'll see a bunch of stuff that looks kinda like your `~/code/blog/YOUR_BLOG_NAME` directory. This is not a coincidence! Every theme has a demo site that shows off how it displays a bunch of different stuff: posts, about-me pages, images, fancy markdown, etc. You want to get a shell going for YOUR site, so here's what you're going to do.
 
 ```
-// in the `/blog/YOUR_BLOG_NAME dir:
+// in the /blog/YOUR_BLOG_NAME dir:
 cp /themes/YOUR_THEME/exampleSite/content/posts /content/posts
+
 // if there's a "pages" section in the example site
 cp /themes/YOUR_THEME/exampleSite/content/pages /content/pages
+
 rm /config.toml
 cp /themes/YOUR_THEME/exampleSite/config.toml /config.toml
 ```
