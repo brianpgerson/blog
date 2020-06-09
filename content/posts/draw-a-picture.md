@@ -1,5 +1,5 @@
 ---
-title: "Draw a Picture"
+title: "Why you should always draw a picture"
 date: 2020-06-08
 tags: 
   - code
